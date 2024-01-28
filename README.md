@@ -89,7 +89,7 @@ I. **Data Wrangling:**
 ## CODE
 
 ### SQL Queries
-- Refer to [ABBEYwalmart SQL queries](ABBEYwalmart.sql) for the complete set of SQL commands used in the project.
+- Refer to [ABBEYwalmart SQL queries]for the complete set of SQL commands used in the project.
 
 ```sql
 CREATE schema WalmartSales;
