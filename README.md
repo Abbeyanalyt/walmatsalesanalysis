@@ -1,4 +1,4 @@
-
+ya
 # WALMART SALES DATA ANALYSIS
 
 ## About
@@ -15,7 +15,16 @@ The major aim of this project is to gain insight into the sales data of Walmart 
 
 The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. It contains sales transactions from three different branches of Walmart located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows.
 
-[Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx)
+[Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx) 
+
+# Table for [Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx)
+
+| Column Name  | Description                                              |
+|--------------|----------------------------------------------------------|
+| Column 1     | (Description of Column 1)                                |
+| Column 2     | (Description of Column 2)                                |
+| ...          | ...                                                      |
+| Column 17    | (Description of Column 17)                               |
 
 ### 17 Columns
 1. (List of 17 columns)
