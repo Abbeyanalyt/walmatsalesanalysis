@@ -1,4 +1,4 @@
-ya
+
 # WALMART SALES DATA ANALYSIS
 
 ## About
