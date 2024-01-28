@@ -1,44 +1,40 @@
-WALMART SALES DATA ANALYSIS
 
-About
+# WALMART SALES DATA ANALYSIS
 
-     This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.
+## About
 
-    "In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." source
+This project aims to explore the Walmart Sales data to understand top-performing branches and products, sales trends of different products, and customer behavior. The goal is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.
 
+> "In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." - source
 
+## Purposes of the Project
 
-PURPOSES OF THE PROJECT
+The major aim of this project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
 
-    The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+## About Data
 
+The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. It contains sales transactions from three different branches of Walmart located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows.
 
-ABOUT DATA
-    
-    The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
-
-17 COLUMNS
 [Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx)
 
+### 17 Columns
+1. (List of 17 columns)
 
-⦁	ANALYSIS LIST
+## Analysis List
 
-    I.  product Analysis
-    Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
+I. **Product Analysis**
+   Conduct analysis on the data to understand the different product lines, the product lines performing best, and the product lines that need improvement.
 
-    II. Sales Analysis
-    This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to 
-    gain more sales.
+II. **Sales Analysis**
+   This analysis aims to answer the question of the sales trends of products. The result of this can help measure the effectiveness of each sales strategy the business applies and what modifications are needed to gain more sales.
 
-III. Customer Analysis
+III. **Customer Analysis**
+   This analysis aims to uncover the different customer segments, purchase trends, and the profitability of each customer segment.
 
-     This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
+## Approaches Used
 
-
-
-⦁	APPROACHED USED 
-
-    I.	Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
+I. **Data Wrangling:**
+   This is the first step where inspection of data is done to make sure NULL values and missing values are detected, and data replacement methods are used to replace missing or NULL values.
 
     II.	Build a database
     Create table and insert the data.
