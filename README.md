@@ -15,19 +15,29 @@ The major aim of this project is to gain insight into the sales data of Walmart 
 
 The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. It contains sales transactions from three different branches of Walmart located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows.
 
-[Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx) 
 
-# Table for [Book1.xlsx](https://github.com/Abbeyanalyt/walmatsalesanalysis/files/14072332/Book1.xlsx)
+# Table for Columns in [Book1.xlsx]
 
-| Column Name  | Description                                              |
-|--------------|----------------------------------------------------------|
-| Column 1     | (Description of Column 1)                                |
-| Column 2     | (Description of Column 2)                                |
-| ...          | ...                                                      |
-| Column 17    | (Description of Column 17)                               |
+| Column Name               | Description                                      | Data Type       |
+|---------------------------|--------------------------------------------------|-----------------|
+| invoice_id                | Invoice of the sales made                         | VARCHAR(30)     |
+| branch                    | Branch at which sales were made                   | VARCHAR(5)      |
+| city                      | The location of the branch                        | VARCHAR(30)     |
+| customer_type             | The type of the customer                           | VARCHAR(30)     |
+| gender                    | Gender of the customer making purchase            | VARCHAR(10)     |
+| product_line              | Product line of the product sold                   | VARCHAR(100)    |
+| unit_price                | The price of each product                         | DECIMAL(10,2)   |
+| quantity                  | The amount of the product sold                     | INT             |
+| VAT                       | The amount of tax on the purchase                 | FLOAT(6,4)      |
+| total                     | The total cost of the purchase                    | DECIMAL(10,2)   |
+| date                      | The date on which the purchase was made           | DATE            |
+| time                      | The time at which the purchase was made           | TIMESTAMP       |
+| payment_method            | The total amount paid                             | DECIMAL(10,2)   |
+| cogs                      | Cost Of Goods sold                                | DECIMAL(10,2)   |
+| gross_margin_percentage   | Gross margin percentage                           | FLOAT(11,9)     |
+| gross_income              | Gross Income                                     | DECIMAL(10,2)   |
+| rating                    | Rating                                           | FLOAT(2,1)      |
 
-### 17 Columns
-1. (List of 17 columns)
 
 ## Analysis List
 
