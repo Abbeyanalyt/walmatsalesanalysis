@@ -42,8 +42,8 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. 
 ## Analysis List
 
 I. **Product Analysis**
-   Conduct analysis on the data to understand the different product lines, the product lines performing best, and the product lines that need improvement.
-
+   - Conduct analysis on the data to understand the different product lines, the product lines performing best, and the product lines that need improvement.
+     
 II. **Sales Analysis**
    This analysis aims to answer the question of the sales trends of products. The result of this can help measure the effectiveness of each sales strategy the business applies and what modifications are needed to gain more sales.
 
@@ -61,7 +61,7 @@ I. **Data Wrangling:**
 - Set up the WalmartSales schema.
 - Create a sales table with fields such as invoice_id, branch, city, customer_type, gender, product_line, unit_price, quantity, etc.
 - Ensure no null values by setting NOT NULL constraints during table creation.
-
+-  
 ## II. Feature Engineering
 - Introduce new columns like `time_of_day`, `day_name`, and `month_name` to derive insights about sales patterns.
 
@@ -73,15 +73,42 @@ I. **Data Wrangling:**
 
 ### Generic Question
 - Identify the number of unique cities and the branch associated with each city.
+- in which city is each branch?
+
 
 ### Product
 - Examine product-related insights, including payment methods, top-selling product lines, and revenue by month.
+-  How many unique product lines does the data have?
+-   what is the most selling product line?
+-   what is the total revenue by month?
+-   what month had the largest COGS?
+-   what  at product line had the largest revenue?
+-   what is the city with the largest revenue?
+-   what product line had the largest VAT?
+-   fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
+-   which branch sold more products than average product sold?
+-   what is the most common product line by gender?
+-   what is the average rating of each product line?
 
 ### Sales
 - Analyze the number of sales per time of day and customer type, along with VAT-related questions.
+- Number of sales made in each time of the day per weekday
+- Which of the customer types brings the most revenue?
+- Which city has the largest tax percent/ VAT (Value Added Tax)?
+- Which customer type pays the most in VAT
 
 ### Customer
 - Explore customer-related metrics, such as customer types, payment methods, and gender distribution.
+- How many unique customer types does the data have?
+- How many unique payment methods does the data have
+- What is the most common customer type?
+- Which customer type buys the most?
+- What is the gender of most of the customers?
+- What is the gender distribution per branch?
+- Which time of the day do customers give most ratings?
+- Which time of the day do customers give most ratings per branch?
+- Which day fo the week has the best avg ratings?
+- Which day of the week has the best average ratings per branch?
 
 ### Revenue And Profit Calculations
 - Understand the calculations behind COGS, VAT, total sales, gross profit, and gross margin percentage.
